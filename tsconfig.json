@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
-    "target": "ES5",
+    "jsx": "react",
+    "target": "es5",
     "module": "commonjs",
     "noEmitOnError": true,
     "noImplicitAny": true,
@@ -9,6 +10,11 @@
     "sourceRoot": "src",
     "outDir": "bld"
   },
+  "filesGlob": [
+    "./src/**/*.tsx",
+    "./src/**/*.ts",
+    "./typings/**/*d.ts"
+  ],
   "exclude": [
     "bld",
     "node_modules"

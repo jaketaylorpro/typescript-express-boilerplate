@@ -3,10 +3,15 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node bld/server"
+    "start": "node bld/server.js",
+    "build": "tsc && webpack"
   },
   "dependencies": {
+    "expose-loader": "^0.7.1",
     "express": "^4.14.0",
-    "pug": "^2.0.0-beta6"
+    "json-loader": "^0.5.4",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "typescript": "^2.0.3"
   }
 }
